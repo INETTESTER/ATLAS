@@ -3,7 +3,7 @@ const crypto = require('crypto');
 
 // ตัวแปรสำหรับกำหนดจำนวนไฟล์และจำนวนธุรกรรมต่อไฟล์
 const numberOfFiles = 15; // จำนวนไฟล์ที่ต้องการสร้าง
-const transactionsPerFile = 3500; // จำนวนธุรกรรมต่อไฟล์
+const transactionsPerFile = 1; // จำนวนธุรกรรมต่อไฟล์
 
 function generateUniqueTransactionUID() {
     return crypto.randomUUID(); // สร้าง UID ที่ไม่ซ้ำกัน
@@ -73,7 +73,7 @@ function createTransactionData(batch, transactionsCount) {
     return data;
 }
 
-const outputDir = 'C:/Users/Administrator/Desktop/2025/Atlas/file/';
+const outputDir = 'C:/Users/Administrator/Desktop/2025/atlas/Atlas/file/';
 
 for (let fileIndex = 1; fileIndex <= numberOfFiles; fileIndex++) {
     const batch = fileIndex;

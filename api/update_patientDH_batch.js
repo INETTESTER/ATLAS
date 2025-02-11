@@ -33,7 +33,7 @@ export function update_patientDH_batch() {
   const params = {
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer NTM5NZVMNDETNGQ3NS0ZNWQ5LTHLOTCTYTJKNJNLODM2NWE0',
+      'Authorization': 'Bearer OGU3NGNKODYTOTDKMC0ZNJRJLWEWYWQTYJZLMJG2YWYYMDCX',
     },
     timeout: 300000, // 5 นาที
   };
