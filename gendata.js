@@ -73,7 +73,7 @@ function createTransactionData(batch, transactionsCount) {
     return data;
 }
 
-const outputDir = 'C:/Users/Administrator/Desktop/2025/atlas/Atlas/file/';
+const outputDir = 'C:/Users/Administrator/Desktop/2025/Atlas/file/';
 
 for (let fileIndex = 1; fileIndex <= numberOfFiles; fileIndex++) {
     const batch = fileIndex;
