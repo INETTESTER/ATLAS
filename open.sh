@@ -4,9 +4,9 @@
 ##########################################################################
 ##########################################################################
 ##########################################################################
-                     projectname="update_patientDH_batch" #ตั้งชื่อ projhttpsect ให้เหมือนกัน
+                     projectname="databridge_patientDH" #ตั้งชื่อ projhttpsect ให้เหมือนกัน
                      google_sheet="https://docs.google.com/spreadsheets/d/1SrOuaAROCwaKIYLuxphCRfweqjjwUCJhWMDWKqZGiDU/edit?gid=1610289956#gid=1610289956" 
-                     id="Q1"                 #เปลี่ยน id ทุกครั้งที่ยิง
+                     id="1"                 #เปลี่ยน id ทุกครั้งที่ยิง
                      user="1";           #จำนวนผู้ใช้งาน
                      durationx="1";         #วินาที
                      scenario="1"           #scenario="1" ยิงเเบบกำหนด request (duration ได้แค่ 1 วินาที)

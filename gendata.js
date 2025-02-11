@@ -2,7 +2,7 @@ const fs = require('fs');
 const crypto = require('crypto');
 
 // ตัวแปรสำหรับกำหนดจำนวนไฟล์และจำนวนธุรกรรมต่อไฟล์
-const numberOfFiles = 15; // จำนวนไฟล์ที่ต้องการสร้าง
+const numberOfFiles = 1; // จำนวนไฟล์ที่ต้องการสร้าง
 const transactionsPerFile = 1; // จำนวนธุรกรรมต่อไฟล์
 
 function generateUniqueTransactionUID() {
