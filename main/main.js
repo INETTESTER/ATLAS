@@ -7,6 +7,8 @@ import { scenario } from 'k6/execution';
 //import { update_patientDH } from '../api/update_patientDH.js';
 import { update_patientDH_batch } from '../api/update_patientDH_batch.js';
 import { databridge_patientDH } from '../api/databridge_patientDH.js';
+import { databridge_patientDH_batch } from '../api/databridge_patientDH_batch.js';
+
 
 
 //============================================================================
@@ -14,7 +16,8 @@ import { databridge_patientDH } from '../api/databridge_patientDH.js';
 export default function () {    //เรียกใช้ API ใน export default function
   //response = update_patientDH(cid);
   //response = update_patientDH_batch();
-  response = databridge_patientDH()
+  response = databridge_patientDH(cid);
+  
   error_check(response);
   sleep(1)
 }
