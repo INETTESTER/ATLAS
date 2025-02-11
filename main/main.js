@@ -2,7 +2,6 @@
 import { sleep } from 'k6';
 
 import { error_check } from '../check/check.js';
-import { cleardata } from '../gafana/cleardata.js';
 import { scenario } from 'k6/execution';
 
 //import { update_patientDH } from '../api/update_patientDH.js';
